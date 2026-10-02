@@ -1,0 +1,16 @@
+{
+  "sampler": "https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.primitives.StatevectorSampler",
+  "runtime": "https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/sampler-v2",
+  "account": "https://quantum.cloud.ibm.com/docs/en/guides/initialize-account",
+  "service": "https://quantum.cloud.ibm.com/docs/en/api/qiskit-ibm-runtime/qiskit-runtime-service",
+  "bits": "https://quantum.cloud.ibm.com/docs/en/guides/bit-ordering",
+  "grover": "https://quantum.cloud.ibm.com/docs/en/api/qiskit/qiskit.circuit.library.grover_operator",
+  "deprecated": "https://quantum.cloud.ibm.com/docs/api/qiskit/2.2/qiskit.circuit.library.GroverOperator",
+  "query": "https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms/grover-algorithm/unstructured-search",
+  "vqe": "https://qiskit-community.github.io/qiskit-algorithms/stubs/qiskit_algorithms.SamplingVQE.html",
+  "qubo": "https://qiskit-community.github.io/qiskit-optimization/tutorials/03_minimum_eigen_optimizer.html",
+  "install": "https://quantum.cloud.ibm.com/docs/en/guides/install-qiskit",
+  "osprey": "https://research.ibm.com/blog/research-annual-letter-2022",
+  "migration": "https://github.com/Qiskit/documentation/blob/2d2c2fcad47dd9e7ac1cc6807527dfccd796ea24/docs/migration-guides/qiskit-runtime.mdx",
+  "repo": "https://github.com/beilak/qdev"
+}

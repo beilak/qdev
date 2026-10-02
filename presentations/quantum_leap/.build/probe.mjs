@@ -1,0 +1,4 @@
+import {GlobalFonts} from '@napi-rs/canvas';
+import {Presentation,PresentationFile} from '@oai/artifact-tool';
+console.log(GlobalFonts.families.map(x=>x.family).filter(x=>/Arial|Helvetica|Menlo|Liberation|DejaVu/.test(x)).join(', '));
+const p=Presentation.create({slideSize:{width:1280,height:720}});const s=p.slides.add();s.background.fill='#FFFFFF';const t=s.shapes.add({geometry:'textbox',position:{left:72,top:60,width:1100,height:100},fill:'none',line:{fill:'none',width:0}});t.text='Quantum Leap';t.text.style={typeface:'Arial',fontSize:48,color:'#15191E'};await(await PresentationFile.exportPptx(p)).save('/Users/beilakaliev/projects/qdev/presentations/quantum_leap/.build/probe.pptx');const png=await p.export({slide:s,format:'png',scale:1});await(await import('node:fs/promises')).writeFile('/Users/beilakaliev/projects/qdev/presentations/quantum_leap/.build/probe.png',new Uint8Array(await png.arrayBuffer()));console.log('ok');
