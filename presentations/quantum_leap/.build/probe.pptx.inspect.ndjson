@@ -1,6 +1,0 @@
-{"kind":"deck","id":"pr/aessd1","name":"Deck"}
-{"kind":"layout","layoutId":"ea1e9d16-e115-489f-ab4f-f92910701059","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"12bbd6cd-c3fb-49fa-bd6b-fe4318a548a8","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/exd4x1","slide":1,"title":"Quantum Leap","textShapes":1}
-{"kind":"textbox","id":"sh/gf69czqd","slide":1,"text":"Quantum Leap","textPreview":"Quantum Leap","textChars":12,"textLines":1,"bbox":[72,60,1100,100]}
-{"kind":"notes","id":"nt/exd4x1","slide":1,"text":""}
