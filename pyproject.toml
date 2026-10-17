@@ -15,7 +15,11 @@ dependencies = [
     "pylatexenc (>=2.10,<3.0)",
     "qiskit-algorithms (>=0.4.0,<0.5.0)",
     "networkx (>=3.5,<4)",
-    "qiskit-optimization (>=0.7,<0.8)"
+    "qiskit-optimization (>=0.7,<0.8)",
+    "qiskit-machine-learning (>=0.9.1,<0.10.0)",
+    "qiskit-finance (>=0.4.1,<0.5.0)",
+    "qiskit-aer (>=0.17.2,<0.18.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
 ]
 
 
